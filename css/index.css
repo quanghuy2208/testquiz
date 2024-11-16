@@ -1,0 +1,34 @@
+.exam-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .exam-item {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .exam-item .pin {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+  }
+  .start-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

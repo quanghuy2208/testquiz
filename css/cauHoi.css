@@ -1,0 +1,38 @@
+.question-container {
+    display: flex;
+  }
+  .question-list {
+    width: 20%;
+    background: #f0f0f0;
+    padding: 10px;
+  }
+  .question-number {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .question-detail {
+    width: 80%;
+    padding: 20px;
+  }
+  .answers label {
+    display: block;
+    margin: 10px 0;
+  }
+  .navigation {
+    margin-top: 20px;
+  }
+  .prev-btn, .next-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

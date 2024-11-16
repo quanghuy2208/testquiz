@@ -1,0 +1,19 @@
+.exam-page {
+    padding: 20px;
+  }
+  .timer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .timer span {
+    font-weight: bold;
+  }
+  .question img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .answers label {
+    display: block;
+    margin: 10px 0;
+  }
+  
